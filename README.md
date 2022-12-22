@@ -1,150 +1,109 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>E-mail website</title>
-    <style>
-          header{
-    background-color: rgba(255, 0, 0, 0.737);
-    padding: 15px;
-    border: 10px;
-    border:rgba(49, 243, 0, 0.854);
-    border-radius: 5px;
-    border-width: 5px;
-    border-style:outset
-}
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ACPC registration form</title>
 
-header h3{
-    color: white;
-    padding: 15px;
-    text-align: center;
-    font-size: 25px;
-    text-shadow: 3px 3px 10px;
-}
-
-section{
-    align-self: center;
-}
-
-table th{
-    text-align: center;
-    background-color: aqua;
-    padding: 20px;
-    color: rgb(174, 13, 13);
-}
-input .id1{
-    background-color: aquamarine;
-}
-
-h6 input{
-    background-color: green;
-    color: white;
-    padding: 10px 10px 5px;
-    text-align: center;
-    border: white;
-    border-radius: 5px;
-    
-}
-
-h6{
-    text-align: center;
-}
-
-h6 input :hover{
-    background-color: blue;
-}
-img{
-    height: 50px;
-}
-
-hr{
-    width: 100px;
-   
-    background-color: rgb(255, 255, 255);
-    border-style: NONE;
-
-}
-    </style>
+<link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header>
-        <h3>
-            Welcome to gmail form !!!
-        </h3>
-    </header> <br> <hr noshade> <br>
-
+  <div class="container">
     <table>
-        <tr>
-            <td>
-                <img src="https://www.bing.com/th?id=OIP.TW21b-CFGudjWw39HNhqcgHaEK&w=333&h=187&c=8&rs=1&qlt=90&o=6&dpr=1.3&pid=3.1&rm=2" alt="Gmail" width="100px">
-            </td>
-            <td>
-                <h2>Welcome to gmail shortcut!!!</h2>
-            </td>
-        </tr>
-    </table> <br> <hr noshade> <br>
-    <p>
-        <h5> 
-            <h4><u><li><ul>Note:-</ul></li></u></h4>
-           <b> In this form you can send your message in email through this form 
+      <tr>
+        <td>
+          <img src="https://th.bing.com/th/id/OIP.8rhDAad294BWOPbWgpJ-4gAAAA?w=119&h=176&c=7&r=0&o=5&dpr=1.25&pid=1.7" width="100">
+        </td>
+        <td>
+          <H1 class="main_heading">
+            Welcome to my form !!!! 
+            
+        
+          </H1>
+        </td>
+      </tr>
+    </table>
+  
+  <form action=""></form>
 
-                 The required information shown that you need to feel and last press on submit button.  
+  
 
-                 after this gmail app will open your device and write email id of reciever
+  <p>
+  
+<fieldset>
+  <p>
+  <h2>
+    -:Fill up yor personal information here:-
+  </h2>
+  </p>
+  <p> <h4>
+    Enter your name here : <input type="text" name="name" required>
+  </p></h4>
+ 
+   <legend>Personal information</legend>
+  <p><h4>
+Please select your gender:- <br><br>
 
-                 if it's not happen that you might be required settings or some permissions from your gmail app.
-           </b>
-        </h5>
-    </p>
-    <br> <hr noshade> <br> 
-   <section>
-    <form action="mailto:write email that you want to sent" method="post" enctype="text/plain"> 
-        <table cellspacing="20px"> <b>
-            <th>- : Fill up your gmail details : -</th>
-            <tr>
-                <td>
-                    Enter your full name here :
-                </td>
-                <td>
-                    <input type="text" name="your name"> 
-                </td>
-            </tr>
-            <tr>
-                <td>
-                    Enter your phone number here :
-                </td>
-                <td>
-                    <input type="number" name="your phone number">
-                </td>
-            </tr>
-            <tr>
-                <td>
-                    Enter your email here : 
-                </td>
-                <td>
-                    <input type="email" name="your email">
-                </td>
-            </tr>
-            <tr>
-                <td>Type your message here that you want to send :</td>
-                <td><textarea name="Your message" id="" cols="30" rows="10"></textarea></td>
-            </tr>
-        </b>
-        </table> <h6>
-        <input type="submit" value="submit" id="id1">
-        </h6>
-    </form> 
-   </section>
+Male<input type="radio" name = "gender" id="male"> <br><br>
 
-   <section>
-          <h3>
-            Note:- 
+Female <input type="radio" name="gender" id="Female">
 
-            This webpage is created just for learning and 
-            practise purpose.
-          </h3>
-   </section>
+  </p>
+
+
+Please write your address here : <br> <br>
+
+  <legend>
+    Address 
+  </legend>
+  <textarea name="Address" id="Address" cols="30" rows="10"></textarea>
+
+
+<p>
+  
+    <legend>E-mail</legend>
+    Enter your e-mail here: <br><br>
+    <input type="email" name="email" id="email">
+  
+  
+</p>
+<legend>PIN CODE</legend>
+<p>
+  Enter your pincode: <input type="pincode" id="pincode" name="pincode"> 
+</p>
+</h4>
+</fieldset>
+
+<br>
+<br>
+<br>
+<fieldset>
+<h2>-:Fill  your payment information:-</h2>
+<p> Enter your card type:- <br><br>
+
+  <select name="Card_tyoe" id="Card_type">
+    <option value="">---Select your card type--</option>
+    <option value="SBI(visa)">SBI(visa)</option>
+    <option value="HDFC">HDFC</option>
+    <option value="kotak mahindra">kotak mahindra</option>
+    <option value="Axis">Axis bank</option>
+    <option value="ICICICI">ICICICI</option>
+  </select>
+</p>
+<p>
+  Enter your card number:- <input type="number" name="card_number" id="card_number">
+</p>
+<p>
+  add your card's expiration date: <input type="date" name="exp_date" id="exp_date">
+</p>
+<p>
+  Enter your CVV number: <input type="password" name="Password" id="Password">
+</p>
+
+<input type="submit" value="Pay now">
+</fieldset>
+</form>
+</div>
 </body>
 </html>
