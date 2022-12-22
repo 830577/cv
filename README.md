@@ -5,7 +5,68 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>E-mail website</title>
-    <link rel="stylesheet" href="style.css">
+    <style>
+          header{
+    background-color: rgba(255, 0, 0, 0.737);
+    padding: 15px;
+    border: 10px;
+    border:rgba(49, 243, 0, 0.854);
+    border-radius: 5px;
+    border-width: 5px;
+    border-style:outset
+}
+
+header h3{
+    color: white;
+    padding: 15px;
+    text-align: center;
+    font-size: 25px;
+    text-shadow: 3px 3px 10px;
+}
+
+section{
+    align-self: center;
+}
+
+table th{
+    text-align: center;
+    background-color: aqua;
+    padding: 20px;
+    color: rgb(174, 13, 13);
+}
+input .id1{
+    background-color: aquamarine;
+}
+
+h6 input{
+    background-color: green;
+    color: white;
+    padding: 10px 10px 5px;
+    text-align: center;
+    border: white;
+    border-radius: 5px;
+    
+}
+
+h6{
+    text-align: center;
+}
+
+h6 input :hover{
+    background-color: blue;
+}
+img{
+    height: 50px;
+}
+
+hr{
+    width: 100px;
+   
+    background-color: rgb(255, 255, 255);
+    border-style: NONE;
+
+}
+    </style>
 </head>
 <body>
     <header>
