@@ -13,7 +13,7 @@
     <table>
       <tr>
         <td>
-          <img src="https://th.bing.com/th/id/OIP.8rhDAad294BWOPbWgpJ-4gAAAA?w=119&h=176&c=7&r=0&o=5&dpr=1.25&pid=1.7" width="100">
+          
         </td>
         <td>
           <H1 class="main_heading">
